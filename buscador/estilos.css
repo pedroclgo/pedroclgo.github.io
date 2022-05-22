@@ -5,12 +5,19 @@
 }
 
 body {
-	background: #f3f3f3;
+	background-color:#D0F9E7;
 	font-family: 'Open Sans', sans-serif;
+
 }
 
 a {
 	text-decoration: none;
+	color: #9f8ad0;
+
+}
+h1{
+	color: #9f8ad0;
+
 }
 
 .contenedor {
@@ -33,7 +40,8 @@ header .logo {
 }
 
 header .logo p {
-	color: #9B9B9B;
+	color: #9f8ad0;
+
 }
 
 header form {
@@ -62,7 +70,7 @@ header .categorias {
 }
 
 header .categorias a {
-	color: #9B9B9B;
+    color: #9f8ad0;
 	margin: 10px 20px;
 	font-size: 18px;
 	font-weight: 700;
@@ -142,7 +150,7 @@ header .categorias a.activo {
 
 .overlay .descripcion {
 	display: block;
-	background: rgb(228, 119, 119);
+	color: #9f8ad0;
 	padding: 20px;
 	text-align: center;
 	margin-top: 5px;
@@ -157,7 +165,7 @@ header .categorias a.activo {
 .overlay #btn-cerrar-popup {
 	background: none;
 	font-size: 20px;
-	color: #fff;
+	color: #9f8ad0;
 	border: none;
 	cursor: pointer;
 	position: absolute;
