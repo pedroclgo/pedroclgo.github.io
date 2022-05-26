@@ -12,22 +12,16 @@ body{
 .container-grid{
     display: grid;
     height: 100vh;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
     grid-template-areas:
-    "img1 img2 img3 img3 img3"
-    "img1 img2 img3 img3 img3"
-    "img4 img4 img3 img3 img3"
-    "img4 img4 img3 img3 img3"
-    "img6 img6 img5 img5 img5"
-    "img6 img6 img5 img5 img5"
-	"img7 img7 img7 img8 img8"
-    "img7 img7 img7 img8 img8"
-    "img9 img9 img10 img10 img10"
-    "img9 img9 img10 img10 img10"
-    "img11 img12 img13 img14 img14"
-    "img11 img12 img13 img14 img14"
-    
+    "img1 img2 img3 img4"
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    "img5 img6 img7 img8"
+    "img9 img10 img11 img"
+    "img9 img10 img11 img"
+      
 	;
     gap: 5px;
 }
