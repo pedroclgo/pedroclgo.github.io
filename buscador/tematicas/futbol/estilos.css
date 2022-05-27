@@ -13,15 +13,16 @@ body{
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(8,1fr);
     grid-template-areas:
     "img1 img2 img3 img4"
     "img1 img2 img3 img4"
     "img5 img6 img7 img8"
     "img5 img6 img7 img8"
-    "img9 img10 img11 img"
-    "img9 img10 img11 img"
-      
+    "img9 img10 img11 img12"
+    "img9 img10 img11 img12"
+    "img13 img img img"
+    "img13 img img img"  
 	;
     gap: 5px;
 }
@@ -77,6 +78,22 @@ body{
     grid-area: img11;
 }
 
+.img-12{
+    grid-area: img12;
+}
+.img-13{
+    grid-area: img13;
+}
+.img-13{
+    grid-area: img13;
+}
+.img-14{
+    grid-area: img14;
+}
+
+.img-15{
+    grid-area: img15;
+}
 
 .container-img{
     position: fixed;

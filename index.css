@@ -26,17 +26,18 @@ body{
 header{
     height: 100vh;
 
-    background-image: linear-gradient(to top, rgba(135, 90, 240, 0.431) 0%, rgba(107, 107, 107, 0.445) 100%), url(./img/x4.jpg);
+    background-image: linear-gradient(to top, rgba(135, 90, 240, 0.431) 0%, rgba(107, 107, 107, 0.445) 80%), url(./img/portada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position:center;
+    background-position-y: 18%;
 }
 
 .head{
     text-align: center;
     padding: 0;
-    height: 100%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +86,7 @@ header{
     font-size: 60px;
     margin-bottom: 15px;
     color: #F9D7F2;
-    margin-top: 600px;
+    margin-top: 550px;
 
 }
 
@@ -126,6 +127,11 @@ main a {
 
 .contenedor-servicio img{
     width: 40%;
+}
+
+.logo-servicios {
+    margin-bottom: 24px;
+
 }
 
 .checklist-servicio{
@@ -211,70 +217,7 @@ main a {
     cursor: pointer;
 }
 
-/* Comienzo de expertos*/
-/*
-.container-expert{
-  width: 100%;
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- align-items: center;
- height: 100vh;
-}
 
-
-.container-expert figure{
-    position: relative;
-    height: 250px;
-    width: 300px;
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-    cursor: pointer;
-}
-
-.container-expert  figure img{
-    width: 100%;
-    height: 100%;
-    transition: all 500ms ease-out;
-   }
-
-
-
-.container-expert figure:hover img{
-  transform: scale(1.2);
-}
-
-.container-expert figure:hover{
-    transform: scale(1.2);
-}
-
-.experts{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.cont-expert{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.cont-expert img{
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-.n-expert{
-    display: inline-block;
-    margin-top: 20px;
-    width:100%;
-    font-weight: 400;
-
-} */
 
 .title{
   text-align: center;
@@ -292,8 +235,6 @@ main a {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-
-  margin-bottom: 5px;
   padding-bottom: 0px;
 }
 
@@ -324,12 +265,14 @@ main a {
 
 .container .card h4{
   font-weight: 600;
+  color:#764ba2
 }
 
 .container .card p{
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300;
+  color:#764ba2
 }
 
 .container .card a{
@@ -640,6 +583,7 @@ footer{
     }
     .titulo{
                     font-size: 30px;
+                    margin-top: 450px;
     }
 
     .subtitulo{
