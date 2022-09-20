@@ -17,8 +17,8 @@ body{font-family: Arial, Helvetica, sans-serif; background: #000000; font-family
     "img1 img2 img3 img4"
     "img5 img6 img7 img8"
     "img5 img6 img7 img8"
-    "img9 img10 img11 img12"
-    "img9 img10 img11 img12"
+    "img9 img10 img img"
+    "img9 img10 img img"
 
 	;
     gap: 5px;
@@ -71,26 +71,7 @@ body{font-family: Arial, Helvetica, sans-serif; background: #000000; font-family
 .img-10{
     grid-area: img10;
 }
-.img-11{
-    grid-area: img11;
-}
 
-.img-12{
-    grid-area: img12;
-}
-.img-13{
-    grid-area: img13;
-}
-.img-13{
-    grid-area: img13;
-}
-.img-14{
-    grid-area: img14;
-}
-
-.img-15{
-    grid-area: img15;
-}
 
 .container-img{
     position: fixed;
